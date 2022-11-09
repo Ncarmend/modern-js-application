@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="border">
+        <section class="titre">
+            <h1 class="title">
+                TO DO LIST
+            </h1>
+        </section>
+
+
+
+        <div class="container">
+            <p>
+                <label for="new-task">TO DO </label>
+
+                <input id="new-task" type="text" value="">
+
+            <p class="dates"></p>
+
+            <input type="date" id="dateInput1">
+
+            <P class="dates">Time</P>
+
+            <input type="date" id="dateInput2">
+
+            <p class="dates">Date</p>
+
+            <button id="bouton" onclick="difDay()">ADD</button>
+
+
+            </p>
+
+            <h3>DOING</h3>
+            <ul id="doingTsk">
+
+                <p id="result" class="resultats"></p>
+
+
+
+            </ul>
+
+            <h3>DONE</h3>
+            <ul id="doneTsk">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
